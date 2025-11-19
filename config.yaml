@@ -1,0 +1,13 @@
+team_name: "Phoenix"
+channel_name: "#sprint-ceremonies"
+sprint_length_days: 14
+
+sprint_start_day: "Monday"
+sprint_planning_time: "10:00"
+daily_standup_time: "09:00"
+technical_refinement_time: "14:00"
+sprint_review_time: "14:00"
+retrospective_time: "15:15"
+
+
+webhook_url: "https://default189de737c93a4f5a8b686f4ca99419.12.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/6096b1568d38431e913c7824d3ff1f51/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=QpvD8BibJxsha88coN1eeYGCfT7p63e6SXcGWo1rM2U"

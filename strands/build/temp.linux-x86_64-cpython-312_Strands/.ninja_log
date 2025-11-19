@@ -1,0 +1,23 @@
+# ninja log v7
+39	3871	1761749518633900424	lib/matslise/matslise/CMakeFiles/matslise.dir/matslise/abstract_matslise.cpp.o	4d3c92b6ee9eec19
+38	4827	1761749518632900424	lib/matslise/matslise/CMakeFiles/matslise.dir/matslise/halfrange.cpp.o	5d23c87978da3512
+38	5312	1761749518632900424	lib/matslise/matslise/CMakeFiles/matslise.dir/matslise/matslise.cpp.o	2405af501d48129d
+5312	15518	1761749523906900369	lib/matslise/matslise/CMakeFiles/matslise.dir/matslise/sector.cpp.o	123594f7b755da2f
+15519	17647	1761749534113900264	lib/matslise/matslise/CMakeFiles/matslise.dir/util/calculateEta.cpp.o	241599276279dbd
+4827	23374	1761749523421900374	lib/matslise/matslise/CMakeFiles/matslise.dir/matslise/matslise_formulas.cpp.o	187cbaea2657e7d9
+3879	25079	1761749522473900384	lib/matslise/matslise/CMakeFiles/matslise.dir/matslise/periodic.cpp.o	66c881e621f2ec77
+17647	26753	1761749536241900242	lib/matslise/matslise/CMakeFiles/matslise.dir/liouville/liouville.cpp.o	e576854d6425645e
+23375	27658	1761749541969900182	lib/matslise/matslise/CMakeFiles/matslise.dir/liouville/sturm_liouville.cpp.o	c6c76eecc7ad429f
+25080	28018	1761749543674900165	lib/matslise/matslise/CMakeFiles/matslise.dir/util/sectorbuilder.cpp.o	710020d7c7aa8599
+27658	36457	1761749546252900138	CMakeFiles/strands.dir/src/schrodinger/schrodinger.cpp.o	2025a305f9652fcd
+26754	36477	1761749545348900148	CMakeFiles/strands.dir/src/schrodinger/eigenfunction.cpp.o	5c7e5fd21da47961
+36477	51154	1761749555074900047	CMakeFiles/strands_py.dir/src/python/strands.cpp.o	3bbe691a2fa172e1
+51156	58590	1761749569750899895	CMakeFiles/strands_py.dir/src/schrodinger/eigenfunction.cpp.o	d47d04c01e308347
+58590	63772	1761749577184899818	CMakeFiles/strands_py.dir/src/schrodinger/schrodinger.cpp.o	5cf35ff446e5ee45
+36458	90576	1761749555052900047	CMakeFiles/strands.dir/src/schrodinger/eigenpairs_sparse.cpp.o	25597b49e01a7555
+28018	105926	1761749546612900134	CMakeFiles/strands.dir/src/schrodinger/eigenpairs_dense.cpp.o	ea9a55d4295adca2
+63772	106036	1761749582366899765	CMakeFiles/strands_py.dir/src/schrodinger/eigenpairs_dense.cpp.o	ac353785ecec3c70
+105927	106394	1761749624522899329	lib/matslise/matslise/libmatslise.a	8d739d7720b458a4
+106394	106464	1761749624988899324	libstrands.a	77429d44dfeb67f0
+90577	112258	1761749609171899487	CMakeFiles/strands_py.dir/src/schrodinger/eigenpairs_sparse.cpp.o	5776915457d5c42e
+112258	136116	1761749630852899263	strands/strands.cpython-312-x86_64-linux-gnu.so	f1227410a565c04

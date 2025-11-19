@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

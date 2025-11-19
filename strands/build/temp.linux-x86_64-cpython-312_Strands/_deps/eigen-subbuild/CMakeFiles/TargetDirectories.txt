@@ -1,0 +1,3 @@
+/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-subbuild/CMakeFiles/eigen-populate.dir
+/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-subbuild/CMakeFiles/edit_cache.dir
+/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-subbuild/CMakeFiles/rebuild_cache.dir
