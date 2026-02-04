@@ -1,9 +1,9 @@
 
-set(CTEST_SOURCE_DIRECTORY  "/workspaces/sprint_ceremony_scheduler/strands")
-set(CTEST_BINARY_DIRECTORY  "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands")
+set(CTEST_SOURCE_DIRECTORY  "/workspaces/sprint-schedular-repo/strands")
+set(CTEST_BINARY_DIRECTORY  "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands")
 set(CTEST_CMAKE_GENERATOR   "Ninja")
 set(CTEST_BUILD_NAME        "linux-6.8.0-1030-azure-_-13.3.0-sse2-64bit")
-set(CTEST_SITE              "codespaces-86b114")
+set(CTEST_SITE              "codespaces-5d840f")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)

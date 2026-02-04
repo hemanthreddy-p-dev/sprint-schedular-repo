@@ -2,11 +2,11 @@
 # If you choose not to use CMake, this file may be hand configured, by
 # filling in the required variables.
 
-cmake_minimum_required(VERSION 4.1.2)
+cmake_minimum_required(VERSION 4.2.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src")
-set(CTEST_BINARY_DIRECTORY "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-build")
+set(CTEST_SOURCE_DIRECTORY "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src")
+set(CTEST_BINARY_DIRECTORY "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "/usr/local/bin/git")
@@ -61,7 +61,7 @@ set(CTEST_MEMORYCHECK_SANITIZER_OPTIONS "")
 set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 
 # CTest Submit Step
-set(CTEST_SITE "codespaces-86b114")
+set(CTEST_SITE "codespaces-5d840f")
 set(CTEST_BUILD_NAME "linux-6.8.0-1030-azure-_-13.3.0-sse2-64bit")
 set(CTEST_SUBMIT_URL "http://my.cdash.org/submit.php?project=Eigen")
 set(CTEST_SUBMIT_INACTIVITY_TIMEOUT "")

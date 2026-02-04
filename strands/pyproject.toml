@@ -9,3 +9,7 @@ requires = [
     "numpy",
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/python/_version.py"
+write_to_template = '__version__ = "{version}"'

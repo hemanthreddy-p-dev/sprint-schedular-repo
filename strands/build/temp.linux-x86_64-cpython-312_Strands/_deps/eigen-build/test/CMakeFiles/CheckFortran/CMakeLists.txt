@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.1.2)
-set(CMAKE_MODULE_PATH "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src/cmake")
+cmake_minimum_required(VERSION 4.2.1)
+set(CMAKE_MODULE_PATH "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src/cmake")
 set(_CMAKE_CHECK_ENABLED_LANGUAGES "C;CXX")
 set(CMAKE_C_COMPILER "/usr/bin/cc")
 set(CMAKE_C_COMPILER_ID "GNU")

@@ -8,7 +8,7 @@ from datetime import date, timedelta
 
 from dotenv import load_dotenv
 
-from prstrands.orchestrator import main_run  # Ensure this module is installed and available
+from scrumschedular.orchestrator import main_run  # Ensure this module is installed and available
  
 def load_config():
 

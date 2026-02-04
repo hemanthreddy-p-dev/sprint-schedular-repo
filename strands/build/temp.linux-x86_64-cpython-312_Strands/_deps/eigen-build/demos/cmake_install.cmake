@@ -1,8 +1,8 @@
-# Install script for directory: /workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src/demos
+# Install script for directory: /workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src/demos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspaces/sprint_ceremony_scheduler/strands/build/lib.linux-x86_64-cpython-312/strands")
+  set(CMAKE_INSTALL_PREFIX "/workspaces/sprint-schedular-repo/strands/build/lib.linux-x86_64-cpython-312/strands")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-build/demos/install_local_manifest.txt"
+  file(WRITE "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-build/demos/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "3.0.0")
    message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 3.0.0...3.31)
+cmake_policy(VERSION 3.0.0...4.0)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(Eigen3::Eigen INTERFACE IMPORTED)
 
 set_target_properties(Eigen3::Eigen PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src"
+  INTERFACE_INCLUDE_DIRECTORIES "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src"
 )
 
 # This file does not depend on other imported targets which have

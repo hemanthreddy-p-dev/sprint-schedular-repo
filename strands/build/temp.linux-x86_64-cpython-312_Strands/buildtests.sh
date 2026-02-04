@@ -169,9 +169,9 @@ targets_to_make=$(echo "$TESTSLIST" | grep -E "$1" | xargs echo)
 
 if [ -n "${EIGEN_MAKE_ARGS:+x}" ]
 then
-  /tmp/pip-build-env-y9l6eoq4/overlay/bin/ninja $targets_to_make ${EIGEN_MAKE_ARGS}
+  /tmp/pip-build-env-vv_r3s9l/overlay/bin/ninja $targets_to_make ${EIGEN_MAKE_ARGS}
 else
-  /tmp/pip-build-env-y9l6eoq4/overlay/bin/ninja $targets_to_make 
+  /tmp/pip-build-env-vv_r3s9l/overlay/bin/ninja $targets_to_make 
 fi
 exit $?
 

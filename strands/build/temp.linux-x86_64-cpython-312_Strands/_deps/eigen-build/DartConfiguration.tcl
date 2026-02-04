@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src
-BuildDirectory: /workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-build
+SourceDirectory: /workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src
+BuildDirectory: /workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: codespaces-86b114
+Site: codespaces-5d840f
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: linux-6.8.0-1030-azure-_-13.3.0-sse2-64bit
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/tmp/pip-build-env-y9l6eoq4/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake" "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src"
-MakeCommand: /tmp/pip-build-env-y9l6eoq4/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" --  
+ConfigureCommand: "/tmp/pip-build-env-vv_r3s9l/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake" "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/_deps/eigen-src"
+MakeCommand: /tmp/pip-build-env-vv_r3s9l/overlay/lib/python3.12/site-packages/cmake/data/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" --  
 DefaultCTestConfigurationType: Release
 
 # version control

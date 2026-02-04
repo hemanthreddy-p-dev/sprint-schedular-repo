@@ -1,8 +1,8 @@
 from strands.agent import Agent
 import json
-from prstrands.llm_planner import plan_sprint_ceremonies
-from prstrands.payload_builder import build_payload
-from prstrands.notifier import send_payloads
+from scrumschedular.llm_planner import plan_sprint_ceremonies
+from scrumschedular.payload_builder import build_payload
+from scrumschedular.notifier import send_payloads
 
 
 def extract_text_from_response(response):

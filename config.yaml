@@ -1,6 +1,6 @@
 team_name: "Phoenix"
 channel_name: "#sprint-ceremonies"
-sprint_length_days: 14
+sprint_length_days: 10
 
 sprint_start_day: "Monday"
 sprint_planning_time: "10:00"

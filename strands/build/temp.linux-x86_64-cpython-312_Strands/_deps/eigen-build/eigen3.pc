@@ -1,4 +1,4 @@
-prefix=/workspaces/sprint_ceremony_scheduler/strands/build/lib.linux-x86_64-cpython-312/strands
+prefix=/workspaces/sprint-schedular-repo/strands/build/lib.linux-x86_64-cpython-312/strands
 exec_prefix=${prefix}
 
 Name: Eigen3

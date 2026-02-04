@@ -1,8 +1,8 @@
-# Install script for directory: /workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise
+# Install script for directory: /workspaces/sprint-schedular-repo/strands/lib/matslise/matslise
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspaces/sprint_ceremony_scheduler/strands/build/lib.linux-x86_64-cpython-312/strands")
+  set(CMAKE_INSTALL_PREFIX "/workspaces/sprint-schedular-repo/strands/build/lib.linux-x86_64-cpython-312/strands")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,31 +43,31 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/lib/matslise/matslise/libmatslise.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/lib/matslise/matslise/libmatslise.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/matslise" TYPE FILE FILES
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/matslise.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/matscs.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/matsliseNd.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/formula_constants.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/matslise.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/matscs.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/matsliseNd.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/formula_constants.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/matslise/util" TYPE FILE FILES
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/util/y.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/util/eigen.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/util/sectorbuilder.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/util/rectangle.h"
-    "/workspaces/sprint_ceremony_scheduler/strands/lib/matslise/matslise/util/scoped_timer.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/util/y.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/util/eigen.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/util/sectorbuilder.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/util/rectangle.h"
+    "/workspaces/sprint-schedular-repo/strands/lib/matslise/matslise/util/scoped_timer.h"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/workspaces/sprint_ceremony_scheduler/strands/build/temp.linux-x86_64-cpython-312_Strands/lib/matslise/matslise/install_local_manifest.txt"
+  file(WRITE "/workspaces/sprint-schedular-repo/strands/build/temp.linux-x86_64-cpython-312_Strands/lib/matslise/matslise/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
